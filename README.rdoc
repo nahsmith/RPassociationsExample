@@ -1,16 +1,9 @@
 =begin rdoc
+This repo holds the class example that demonstrates Active record associations by adding the ability to add movie reviews to Rotten Potatoes.  The example is very
+rudamentary and doesn't implement all of the validations and other features that one would want in production code.
+Also, the exmple does not provide any way to view reviews once they have been added so you will have to use Rails Console or some other means to verify that reviews have actually been properly added to the database.
 
-This directory contains the basic Rotten Potatoes rails app that we will use
-and enhance througout the semester.
-
-You can copy this directory to your Cloud9 wokspace by first forking the SELT/RottenPotatoes
-GitHub repo to your GitHub account and then cloning it to your Cloud9 workspace.  You do NOT
-need to make your GitHub repo private.
-
-Before running the app, change into the top-level directory--i.e. the one 
-containing this README file--and enter the following commands to install gems
-and set up and initialize the database  (You only need to do this before running
-the app for the first time:
+Before running the app, be sure to do the following commands:
 
 bundle install
 
